@@ -54,6 +54,7 @@ bottoneGenera.addEventListener( "click",
     document.getElementById('offerta').innerHTML = tipoBiglietto;
     document.getElementById('costobiglietto').innerHTML = outputPrezzoFinale.toFixed(2) + " €";
 
+    document.getElementById('divInv').className = "Block";
   }
 
 )
@@ -62,6 +63,7 @@ bottoneAnnulla.addEventListener("click",
   function() {
     kmUtente.value = "";
     nomeUtente.value = "";
+    document.getElementById('divInv').className = "none";
 
 
   }
