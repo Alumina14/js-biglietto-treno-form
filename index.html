@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Prezzo Biglietto</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+<h1>Calcola il prezzo del tuo biglietto</h1>
+  <div class="bgdiv">
+    <div class="position1">
+      <span class="marginspan" >Nome e Cognome</span>
+      <span class="marginspan">KM da percorrere</span>
+      <span class="marginspan">Fascia di età</span>
+    </div>
+    <div class="position2">
+    <input id="nome" type="text" name="" value="">
+    <input id="km" type="text" name="" value="">
+    <select id="eta">
+      <option value="">Seleziona</option>
+      <option value="minorenne">Minorenne</option>
+      <option value="maggiorenne">Maggiorenne</option>
+      <option value="over65">Over65</option>
+    </select>
+    </div>
+    <div class="position3">
+    <button id="genera" type="button" name="button">Genera</button>
+    <button id="annulla" type="button" name="button">Annulla</button>
+    </div>
+  </div>
+<!-- Fine primo div visibile -->
+
+<!-- Inizio secondo div invisibile -->
+<h1>Il tuo biglietto</h1>
+<div class="bgdiv">
+  <ul class="posizioneul1">
+    <li><h4>Nome Passeggero:</h4></li>
+    <li><h4>Offerta:</h4></li>
+    <li><h4>Carrozza:</h4></li>
+    <li><h4>Codice cp:</h4></li>
+    <li><h4>Costo biglietto:</h4></li>
+  </ul>
+  <!-- output js -->
+  <ul class="posizioneul2">
+    <li id="nomePass" ></li>
+    <li id="offerta" ></li>
+    <li id="carrozza" ></li>
+    <li id="codicecp" ></li>
+    <li id="costobiglietto" ></li>
+  </ul>
+</div>
+<!-- Fine secondo div invisibile -->
+
+
+<script type="text/javascript" src="js/main.js">
+
+</script>
+
+
+  </body>
+</html>

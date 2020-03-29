@@ -1,0 +1,97 @@
+/* css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/shinbg.jpg");
+  background-size: cover;
+  color: white;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+.bgdiv{
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 250px;
+  width: 900px;
+  border-radius: 4px;
+  margin: auto;
+  box-shadow: 2px 2px black;
+}
+
+h1{
+  display: block;
+  margin: 20px auto;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  width: 900px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 26px;
+  border-radius: 4px;
+  padding: 10px;
+  text-shadow: 2px 2px black;
+
+}
+
+input, select, button{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button{
+  padding: 14px 30px;
+}
+
+.position1{
+  margin: 10px 0;
+  padding-top: 46px;
+}
+
+.position2{
+  margin-top: 20px;
+}
+
+.position3{
+  margin-top: 20px;
+}
+
+.marginspan{
+  margin: 0 30px;
+}
+
+.position1, .position2, .position3{
+  text-align: center;
+
+}
+
+/* stile secondo div non visibile */
+
+.bgdiv ul{
+  float: left;
+  width: 100%;
+}
+
+.bgdiv ul li{
+  display: inline-block;
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.posizioneul1{
+  padding-top: 80px;
+}
+
+.posizioneul2{
+  padding-top: 20px;
+}
