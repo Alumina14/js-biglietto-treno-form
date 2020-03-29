@@ -9,6 +9,7 @@ body{
   background-image: url("../img/shinbg.jpg");
   background-size: cover;
   color: white;
+  background-repeat: no-repeat;
 }
 
 ::selection {
@@ -51,6 +52,11 @@ input, select, button{
 button{
   padding: 14px 30px;
 }
+
+option{
+  background-color: black;
+}
+
 
 .position1{
   margin: 10px 0;
